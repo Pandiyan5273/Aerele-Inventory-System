@@ -3,6 +3,9 @@ Inventory System
 User Requirements:
 To create a web application using Flask framework to manage inventory of a list of products in respective warehouses. Imaging this application will be used in a shop or a warehouse that needs to keep track of various products and various locations.
 
+Video Recordings:
+https://www.linkedin.com/posts/pandiyan37_flask-python-webdevelopment-activity-7325158938256048129-mnNP?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD_EGrYBwQ8ABxEU2K1Yfw6oHHCKlRi6iOI
+
 Inventory Management Web Application :
 
 In the inventory Shop it contains product,location and product movements and show the Transactions Report.
