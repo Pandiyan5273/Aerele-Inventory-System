@@ -46,7 +46,9 @@ Step 3: Import the Necessary Flask files in cmd.
 
 Step 4: Run the Application 
 •	python appname.py(python app.py)
+
 Screenshots:
+
 1.	First it Ask the User Details to Allow in Inventory Shop.
 ![image](https://github.com/user-attachments/assets/112bc648-5e5f-4f7f-bbd0-a95a61dd8909)
 
@@ -63,6 +65,7 @@ It Successfully Added the New Location Thiruvannamalai
 ![image](https://github.com/user-attachments/assets/4b2ff473-7865-4343-b235-b0322eea8e74)
 
 5.Products Movements (Make Transactions and Available balances in Hub and Transaction History)
+
 There are three type Of Transactions
 1.Unknown to Hub (it reduces the Original product Quantity)
 Example: I’m entered tomato As 100 Quantity
@@ -78,19 +81,26 @@ It also updated Remaining Available Quantity in product page I moved 50 quantity
 ![image](https://github.com/user-attachments/assets/5548832d-654f-4eed-9524-1b63d66bd7cc)
 
  Type 2:(Hub to Hub)
+ 
 In Hyderabad hub contains 50 quantity I move the 25 quantity to Coimbatore Hub.
 ![image](https://github.com/user-attachments/assets/c66f3179-676b-4647-a39c-7b9a58f88a23)
+
 it successfully transferred Hyderabad hub to Coimbatore hub.
 ![image](https://github.com/user-attachments/assets/f54b79e8-37e2-4801-91ab-65e39a6ec348)
+
 Type 3:(Hub to Consumer)
+
 The Coimbatore hub Contains 25 quantity I want to sell 20 Quantity to consumer .
+
 ![image](https://github.com/user-attachments/assets/387a0cef-9206-4222-854e-f9d3ac9e82e5)
 
 It successfully updated Coimbatore hub quantity as 5 and the product is selled in Coimbatore.
 
 If we want to search the transaction history by product or Ware House:
+
 Example :in search box I’ll entered “Tom” and click entered the result page will show like this.
 ![image](https://github.com/user-attachments/assets/5719ab40-91f2-444f-81b9-14be1e073565)
+
 Hence all the Actions are done in the given Requirements and I add the few more features for user Flexibility .
 
 Referances:
@@ -98,6 +108,8 @@ Referances:
 1.Bootsrap Styles – For user interface and styling.
 
 2.For Developing This Application – WaterFall model in (OOSE-CCS356 (Anna University))
+
 •	This model the Development starts Requirements gathering phase.
+
 •	Then process analysis,design,coding,testing and Maintenance.
 
