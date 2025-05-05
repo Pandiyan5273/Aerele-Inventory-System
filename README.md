@@ -2,30 +2,44 @@ Inventory System
 
 User Requirements:
 To create a web application using Flask framework to manage inventory of a list of products in respective warehouses. Imaging this application will be used in a shop or a warehouse that needs to keep track of various products and various locations.
+
 Inventory Management Web Application :
+
 In the inventory Shop it contains product,location and product movements and show the Transactions Report.
+
 •	I Had Successfully created the product.html page in that the user can add product name and Quantity if they wants to modify they can do in that pages.
+
 •	In Location page  as successfully add their Location and modify in the Locations in Location.html
+
 •	I had created product movement.html for showcasing the Transactions and Transaction history in that page.
 
 Features I’m Added:
 
 •	Login and Signup(By Hashing technique)
+
 •	Search in Transactions by product name or Warehouse.
+
 •	Easy Navigations
+
 •	Using Sqlite Database.
+
 •	Can easily Modify The Product Details and Location Details.
+
 •	Bootstrap Styles are Used in Web pages.
 
 File Paths:
 ![image](https://github.com/user-attachments/assets/ef548ba1-70fe-4ce1-9b54-99bd0c4851a6)
 
 Steps To Run the Application:
+
 Step1: Extract the Zip File 
 
 Step2: Migrate the Sqlite Database in Your System
+
 •	flask --app aerele db init
+
 •	flask --app aerele db migrate -m "Initial migration"
+
 •	flask --app aerele db upgrade
 
 Step 3: Import the Necessary Flask files in cmd.
