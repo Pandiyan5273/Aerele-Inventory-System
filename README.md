@@ -20,27 +20,7 @@ Features I’m Added:
 
 
 File Paths:
-├── aerele\
-│   ├── __init__.py          # Flask app initialization
-│   ├── models.py            # Database models (Product, Location, ProductMovement, User)
-│   ├── routes.py            # Application routes and logic
-│   ├── templates\           # HTML templates for the app
-│   │   ├── signup.html      # Signup page template
-│   │   ├── login.html       # Login page template
-│   │   ├── product.html     # Product listing page
-│   │   ├── location.html    # Location listing page
-│   │   ├── movement.html    # Product movement page
-│   │   ├── edit_product.html # Edit product page
-│   │   ├── edit_location.html # Edit location page
-│   │   ├── search_results.html # Search results page
-│   ├── static\              # Static files (CSS, JS, images)
-│   │   ├── back.jpg         # Background image
-├── migrations\              # Database migration files
-│   ├── versions\            # Individual migration scripts
-│   │   ├── ...              # Migration file
-├── requirements.txt         # Python dependencies
-├── config.py                # Configuration file (if applicable)
-└── run.py                   # Entry point to run the Flask app
+![image](https://github.com/user-attachments/assets/ef548ba1-70fe-4ce1-9b54-99bd0c4851a6)
 
 Steps To Run the Application:
 Step1: Extract the Zip File 
@@ -100,6 +80,7 @@ Hence all the Actions are done in the given Requirements and I add the few more 
 
 Referances:
 1.Bootsrap Styles – For user interface and styling.
+
 2.For Developing This Application – WaterFall model in (OOSE-CCS356 (Anna University))
 •	This model the Development starts Requirements gathering phase.
 •	Then process analysis,design,coding,testing and Maintenance.
