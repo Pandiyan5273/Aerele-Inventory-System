@@ -7,7 +7,9 @@ In the inventory Shop it contains product,location and product movements and sho
 •	I Had Successfully created the product.html page in that the user can add product name and Quantity if they wants to modify they can do in that pages.
 •	In Location page  as successfully add their Location and modify in the Locations in Location.html
 •	I had created product movement.html for showcasing the Transactions and Transaction history in that page.
+
 Features I’m Added:
+
 •	Login and Signup(By Hashing technique)
 •	Search in Transactions by product name or Warehouse.
 •	Easy Navigations
@@ -15,20 +17,19 @@ Features I’m Added:
 •	Can easily Modify The Product Details and Location Details.
 •	Bootstrap Styles are Used in Web pages.
 
-
-
-
-
 File Paths:
 ![image](https://github.com/user-attachments/assets/ef548ba1-70fe-4ce1-9b54-99bd0c4851a6)
 
 Steps To Run the Application:
 Step1: Extract the Zip File 
+
 Step2: Migrate the Sqlite Database in Your System
 •	flask --app aerele db init
 •	flask --app aerele db migrate -m "Initial migration"
 •	flask --app aerele db upgrade
+
 Step 3: Import the Necessary Flask files in cmd.
+
 Step 4: Run the Application 
 •	python appname.py(python app.py)
 Screenshots:
@@ -79,6 +80,7 @@ Example :in search box I’ll entered “Tom” and click entered the result pag
 Hence all the Actions are done in the given Requirements and I add the few more features for user Flexibility .
 
 Referances:
+
 1.Bootsrap Styles – For user interface and styling.
 
 2.For Developing This Application – WaterFall model in (OOSE-CCS356 (Anna University))
