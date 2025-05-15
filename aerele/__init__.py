@@ -14,7 +14,7 @@ def create_app():
     os.makedirs(os.path.join(app.instance_path), exist_ok=True) # create the inventory db in my computer
     app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + os.path.join(app.instance_path, 'inventry.db')
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-    app.config['SECRET_KEY'] = 'your_secret_key_here'
+    app.config['SECRET_KEY'] = '123456789'
     app.config['SESSION_TYPE'] = 'filesystem'
     app.config['SESSION_PERMANENT'] = True
     app.config['SESSION_USE_SIGNER'] = True
